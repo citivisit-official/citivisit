@@ -1,8 +1,33 @@
 /*----------------------------------------- [MASTER STYLE SHEET] * Project: The Travel * Version: v2.0 * Copyright 2016-2020 rn53themes * V1.0: 03/09/2016 * V2.0: 24/08/2017 * Author: RN53 Themes * Email: rn53themes@gmail.com * Website: http://www.rn53themes.net -----------------------------------------------*/
 /*------------------------------------------------- = TABLE OF CSS 1.COMMON CSS 2.HEADER(LOG0 & HELP LINE) 3.NAVIGATION MENU 4.SLIDER & INNER PAGE BANNER 5.SLIDER ENQUIRY 6.TOUR PLACES 6.1 HOTELS 7.FREE CONSULTANT 8.EVENTS 9.POPULAR TOUR PLACES 10.REQUEST A QUOTE 11.TIPS BEFORE TRAVEL 11.1 TIPS BEFORE TRAVEL 11.2 CUSTOMER TESTIMONIALS 11.3 ARRANGEMENTS & HELPS 12.FOOTER 1 12.1 OFFERS 12.2 MOST POPULAR VACATIONS 13.FOOTER 2 13.1 ADDRESS 13.2 SUBSCRIBE 13.2 FAQ 13.2 LOCATION 13.5 SOCIAL MEDIA 14.COPY RIGHTS 15.INNER PAGE 15.1 COMMON BANNER 15.2 ALL INNER PAGE STYLES 16.PRE LOADING 17.REVIEWS 18.TOP TRENDINGS 19.INNER PAGE LISTING 20.LISTING 21.LISTING SOCIAL SHARE 22.ROOM AVAILABILITY CHECK 23.SOCIAL MEDIA SHARE 24.MY ACCOUNT DROP DOWN -------------------------------------------------*/
 /*-------------------------------------------------------*/
-/* 1.COMMON CSS 
+/* 1.COMMON CSS - MAIN
 /*-------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------*/
  body {
      font-family: 'Poppins', sans-serif;
      font-size: 14px;
@@ -3525,6 +3550,7 @@
  .foot-mob-app h2 {
      margin-top: 0px;
      font-size: 45px;
+     color: black;
 }
  .foot-mob-app p {
      font-size: 15px;
@@ -3556,7 +3582,7 @@
 }
  .foot-mob-sec {
      background: url(../images/cloud.png) no-repeat bottom center #f6f6f6;
-     padding: 100px 0px 60px 0px;
+     padding: 40px 0px 10px 0px;
      background-size: contain;
      position: relative;
 }
@@ -7044,7 +7070,7 @@
      width: 100%;
 }
  .slid-cap {
-     align-content: center
+   
 }
  .slid-cap h2 {
      font-size: 62px;
@@ -7245,104 +7271,13 @@
      line-height: 20px;
 }
 
-/* Style the tab */
-.tab {
-        overflow: hidden;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-          background-color: inherit;
-          float: left;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          padding: 14px 16px;
-          transition: 0.3s;
-          font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #df3b77;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #df3b77;
-}
-
-/* Style the tab content */
-.tabcontent {
-              display: none;
-              padding: 0px 0px;
-              border: 0px solid #ccc;
-              border-top: none;
-            
-}
-
-
-.bg-layer {        /*-- IN USE--*/
-    min-height: 60vh;
-}
-
-
-.wrapper {       /*-- IN USE--*/
-    margin: 0 auto;
-    width: 90%;
-}
-
-.form-w3layouts-grid button.btn {       /*-- In use --*/
-    color: #fff;
-    border: none;
-    padding: 10px 0px;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: transparent;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    transition: 0.5s all;
-    float: right;
-    cursor: pointer;
-    width: 15%;
-    font-size: 14px;
-    text-align: center;
-}
-
-/*-- //header --*/
-
-body h2 {
-    font-size: 2.5em;
-    color: #fff;
-    font-weight: 300;
-    letter-spacing: 7px;
-    margin: 1em 0 0 0;
-}
-
-
-.content-inner-info {    /*-- IN USE --*/
-    padding-top: 2em;
-}
-
-
-.content-w3layouts-main {   /*-- IN USE --*/
-    max-width: 350px;
-    position: relative;
-    padding: 3em 0em;
-}
-
 
 .form-w3ls-left-info input[type="email"] {    /*-- IN USE --*/
     outline: none;
     font-size: 14px;
     color: #888;
     border: none;
-    width: 200%;
+    width: 100%;
     display: inline-block;
     letter-spacing: 2px;
     margin: 0 0 1em;
@@ -7355,7 +7290,7 @@ body h2 {
     font-size: 14px;
     color: #888;
     border: none;
-    width: 200%;
+    width: 100%;
     display: inline-block;
     letter-spacing: 2px;
     margin: 0 0 1em;
@@ -7370,23 +7305,13 @@ body h2 {
     font-size: 14px;
     color: #888;
     border: none;
-    width: 200%;
+    width: 100%;
     display: inline-block;
     letter-spacing: 2px;
     margin: 0 0 1em;
     padding: 1em 1em;
     background: #fff;
 
-}
-
-.main-top-intro {    /*-- IN USE--*/
-    background-image: url('../images/cityvisit.jpg');
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    min-height: 60vh;
 }
 
 .form-w3ls-left-info button.btn {               /*-- IN USE --*/
@@ -7432,45 +7357,148 @@ button.btn.reg {                                 /*-- IN USE --*/
     text-decoration: underline;
 }
 @media(max-width:600px) {     
-    .content-inner-info {       /*-- IN USE --*/
-        padding-top: 8em;
-    }
+    .slid-cap h2 {
+        font-size: 42px;
+        color: #fff;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        text-transform: uppercase;
+   }
 
-    .content-inner-info {       /*-- IN USE --*/
-        padding-top: 8em;
-    }
+   .tour-ri-com {
+    position:relative;
+   /* background: #f3f3f3;
+    */
+   /* border: 1px solid #e2e2e2;
+   /* padding: 15px;
+    */
+    margin-bottom: 0px;
+}
+
+.tour_rela_1 {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+    padding: 0px;
+}
+.tour_rela_1 img {
+    width: 0%;
+}
+.tour_rela_1 h4 {
+    margin-top: 0px;
+    font-size: 0px;
+    font-weight: 0;
+}
 
 }
 
 
 @media(max-width:441px) {
 
-    .form-w3ls-left-info input[type="email"],    /*-- IN USE --*/
-    .form-w3ls-left-info input[type="password"] {   /*-- IN USE --*/
-        width: 91%;
-    }
+    .slid-cap h2 {
+        font-size: 42px;
+        color: #fff;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        text-transform: uppercase;
+   }
+
+   .tour-ri-com {
+    position:relative;
+   /* background: #f3f3f3;
+    */
+   /* border: 1px solid #e2e2e2;
+   /* padding: 15px;
+    */
+    margin-bottom: 0px;
+}
+
+.tour_rela_1 {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+    padding: 0px;
+}
+.tour_rela_1 img {
+    width: 0%;
+}
+.tour_rela_1 h4 {
+    margin-top: 0px;
+    font-size: 0px;
+    font-weight: 0;
+}
+
 }
 
 @media(max-width:384px) {
-    body h2 {
-        font-size: 1.75em;
-        margin: 2em 0 0 0;
-    }
+    .slid-cap h2 {
+        font-size: 42px;
+        color: #fff;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        text-transform: uppercase;
+   }
 
-    .content-w3layouts-main {      /*-- IN USE --*/
-        max-width: 350px;
-        padding: 2em 0em;
-    }
+   .tour-ri-com {
+    position:relative;
+   /* background: #f3f3f3;
+    */
+   /* border: 1px solid #e2e2e2;
+   /* padding: 15px;
+    */
+    margin-bottom: 0px;
+   }
 
-    .content-inner-info {          /*-- IN USE --*/
-        padding-top: 7em;
-    }
+   .tour_rela_1 {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+    padding: 0px;
+}
+.tour_rela_1 img {
+    width: 0%;
+}
+.tour_rela_1 h4 {
+    margin-top: 0px;
+    font-size: 0px;
+    font-weight: 0;
+}
+
 }
 
 @media(max-width:350px) {
-    body h2 {
-        font-size: 1.6em;
-    }
+    .slid-cap h2 {
+        font-size: 42px;
+        color: #fff;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        text-transform: uppercase;
+   }
+   .tour-ri-com {
+    position:relative;
+   /* background: #f3f3f3;
+    */
+   /* border: 1px solid #e2e2e2;
+   /* padding: 15px;
+    */
+    margin-bottom: 0px;
+}
+.tour_rela_1 {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+    padding: 0px;
+}
+.tour_rela_1 img {
+    width: 0%;
+}
+.tour_rela_1 h4 {
+    margin-top: 0px;
+    font-size: 0px;
+    font-weight: 0;
 }
 
-/*--//responsive--*/
+
+
+
+}
